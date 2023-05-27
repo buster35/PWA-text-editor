@@ -27,7 +27,6 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-
 const paths = ["style", "script", "worker"]
 
 registerRoute( ({ request }) => paths.includes(request.destination),
